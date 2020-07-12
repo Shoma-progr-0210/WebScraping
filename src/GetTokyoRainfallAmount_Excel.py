@@ -14,7 +14,7 @@ table = TokyoRA_html.findAll("table", {"class":"data2_s"})[0]
 rows = table.findAll("tr")
 
 # encoding = 'shift-jis'
-fileName = 'TokyoRA_v2.xlsx'
+fileName = 'TokyoRA_Excel.xlsx'
 
 def readTable():
     for row in rows:
